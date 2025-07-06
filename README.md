@@ -7,10 +7,18 @@ CSEShell is a custom-built UNIX command-line shell created by CL01 Team 1! This 
 Requirements: Linux environment
 
 Steps to compile & run CSEShell:
--  Open your terminal and navigate to the project directory
-  - Optional: clean previous builds (if necessary) using command `make clean`
-- Compile the shell and all system programs using command `make`
-- Start the shell using command `./cseshell`
+```bash
+## 1. Open your terminal and navigate to the project directory
+
+## 2. Optional: clean previous builds (if necessary) using command `make clean`
+make clean
+
+## 3. Compile the shell and all system programs using command `make`
+make
+
+## 4. Start the shell using command `./cseshell`
+./cseshell
+```
 
 ## Built-in Functions 
 
@@ -34,7 +42,7 @@ Steps to compile & run CSEShell:
 
 ## Additional Features
 
-1. Character ASCII Art 
+**1. Character ASCII Art** 
   - Accessible through commands: `batman`, `cyclops`, `squidward`
   - *Example*: ‘batman’ outputs Batman in ASCII Art 
   - Adds fun and visually engaging elements to the shell, breaking the monotony of plain text interactions
@@ -42,7 +50,7 @@ Steps to compile & run CSEShell:
 batman
 ```
 
-2. Basic Calculator
+**2. Basic Calculator**
   - Accessible through the `calc` command
   - *Example*: `calc 1+1` outputs 2
   - Be sure to type your equation without any trailing spaces
@@ -53,7 +61,7 @@ batman
 calc
 ```
 
-3. Command History 
+**3. Command History**
   - Accessible through `history` command
   - Displays a list of previously executed commands in chronological order
   - Each command is numbered, making it easy for users to identify and reference past inputs
@@ -62,14 +70,14 @@ calc
 history
 ```
 
-5. Arrow Key Navigation
+**5. Arrow Key Navigation**
   - Pressing the up or down arrow keys cycles through previously entered commands
   - Users can scroll backward to recall older commands or forward to return to more recent ones
   - Reduces need to manually retype commands, improving efficiency and ease of use
 
 ## Sustainability 
 
-1. Resource Usage Feedback --> Resource Display
+**1. Resource Usage Feedback --> Resource Display**
 
 What it does:
 - After each command is executed, the shell automatically displays detailed statistics including CPU time (user and system), peak memory usage (RAM) and block I/O operations
@@ -80,7 +88,7 @@ Justification:
 
 ## Inclusivity 
 
-1. Customizable Interface --> Colour Change
+**1. Customizable Interface --> Colour Change**
 
 What it does:
 - Allows users to change the color scheme of the shell prompt using the `set colour_scheme` command
@@ -95,7 +103,7 @@ Justification:
 - The implementation uses a dedicated data structure to manage color configurations, enabling flexible and consistent prompt styling
 - By supporting visual customization, this feature ensures that users with different visual abilities or preferences can interact with the shell more comfortably, fostering a more inclusive and user-friendly experience
 
-2. Customizable Interface --> Timestamp Display
+**2. Customizable Interface --> Timestamp Display**
 
 What it does:
 - The shell includes a timestamp display feature that can be enabled using the `set show_timestamp` command
@@ -108,7 +116,7 @@ Justification:
 - This is particularly beneficial for users who rely on time cues for task tracking, time-sensitive operations, or cognitive support
 - By offering a simple yet impactful customization that accommodates diverse working styles and needs, the feature enhances the shell’s usability for a broader range of users, reinforcing an inclusive and accessible command-line environment
 
-3. Customizable Interface --> Prompt Style
+**3. Customizable Interface --> Prompt Style**
 
 What it does:
 - The `set prompt_format` command allows users to customize the text that appears at the beginning of each command line (the shell prompt)
