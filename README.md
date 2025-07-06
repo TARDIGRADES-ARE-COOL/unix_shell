@@ -1,4 +1,4 @@
-# Welcome to CSEShell by CL01 Team 1 🐚
+# Welcome to CSEShell🐚
 
 CSEShell is a custom-built UNIX command-line shell created by CL01 Team 1! This shell mimics the behaviour of common terminal environments, supporting essential built-in commands (cd, help, exit), dynamic environment control and execution of external programs. We also developed system utilities (file search, dynamic library inspection and daemon processes) to showcase OS-level programming in C. CSEShell is built to handle the navigation of directories, managing environment variables and more with efficiency. 
 
