@@ -1,0 +1,7 @@
+.vscode/
+__pycache__/
+.pytest*/
+bin/
+.DS_Store
+archive/
+cseshell
